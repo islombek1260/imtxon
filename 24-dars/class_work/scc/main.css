@@ -1,0 +1,20 @@
+body{
+    background-color: #B4C8DB;
+}
+header{
+    color: #FFFFFF;
+    background-color: #6A96D8;
+    width: 400px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-close::after{
+    content: "";
+    background-image: url(../img/cancel.png);
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    color: #FFFFFF;
+}

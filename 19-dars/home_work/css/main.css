@@ -1,0 +1,197 @@
+:root{
+    --main-color: #111517;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito Sans", "Arial", sans-serif;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.site-header {
+    padding-top: 23px;
+    padding-bottom: 24px;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.header-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.header-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #111517;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.header-btn::before{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    content: "";
+    background-image: url("../images/moon.svg");
+    background-repeat: no-repeat;
+}
+
+.intro{
+    margin: auto auto;
+    padding: 48px 0px;
+    background-color: #f2f2f2;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+.intro-form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.search-input{
+    width: 480px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 74px;
+    background-image: url("../images/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 197px) calc(50%);
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+            box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    border: none;
+}
+
+.intro-select{
+    width: 200px;
+    padding: 18px 10px 18px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #111517;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-image: url("../images/arrow.svg");
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: right 18px top 22px;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+            box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+    border-radius: 5px;
+    border: none;
+}
+
+.intro-list {
+    width: 1280px;
+    margin: 0;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none;
+}
+
+.intro-item {
+    width: 264px;
+    margin-bottom: 75px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+            box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+    border-radius: 5px;
+}
+
+.intro-item:nth-child(5){
+    margin-bottom: 0;
+}
+
+.intro-item:nth-child(6){
+    margin-bottom: 0;
+}
+
+.intro-item:nth-child(7){
+    margin-bottom: 0;
+}
+
+.intro-item:nth-child(8){
+    margin-bottom: 0;
+}
+
+.item-box{
+    padding: 24px 0 36px 24px;
+}
+
+.intro-img{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.intro-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--main-color);
+}
+
+.intro-text {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-color);
+}
+
+.intro-text-info {
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-color);
+}

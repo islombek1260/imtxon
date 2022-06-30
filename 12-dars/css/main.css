@@ -1,0 +1,100 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    width: 146px;
+    height: 52px;
+}
+.header_nav{
+    display: flex;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+.header-nav-item{
+
+}
+.header-nav-link{
+
+}
+.header-nav-button{
+    padding: 6px 25.5px 5px 26.5px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #505050;
+    border: 2px solid #717CFF;
+    border-radius: 11px;
+    text-decoration: none;
+    transition: width 0.5s ease, background-color 0.5s
+}
+.intro{
+    display: flex;
+}
+.intro-theme{
+    font-size: 56px;
+    font-weight: 900;
+    width: 632px;
+    height: 154px;
+    margin-top: 140px;
+    margin-right: 62px;
+    margin-bottom: 15px;
+}
+.intro-text{
+    color: #7D7D7D;
+    font-size: 22px;
+    font-weight: 500;
+    width: 632px;
+    height: 80px;
+    margin-top: 0px;
+
+}
+.intro-button{
+    width: 262px;
+    height: 64px;
+    padding: 12px 34px 12px 34px;
+    text-decoration: none;
+    background-color: #717CFF;
+    border-radius: 11px; 
+    margin-bottom: 101px;
+}
+.intro-button-text{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 34px;
+}
+.intro-foto{
+    margin-top: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.intro-button-img{
+    margin-top: 12px;
+    width: 18.28px;
+    height: 16.45px;
+}
+.intro-list{
+    display: flex;
+}
+.intro-item{
+    list-style: none;
+}

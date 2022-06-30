@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+.container{
+    width: 700px;
+    margin: auto auto;
+    padding: 0 50px;
+}
+
+.btn{
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 30px;
+    font-size: 20px;
+    width: 700px;
+    height: 50px;
+}
+
+.btn-primary{
+    background-color: #0C6DF9;
+}
+.btn-primary:hover{
+    background-color: #06449a;
+}
+
+.btn-secondary{
+    background-color: #6C757D; 
+}
+
+.btn-success{
+    background-color: #198754;
+}
+
+.btn-danger{
+    background-color: #DC3545;
+}

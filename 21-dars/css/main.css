@@ -1,0 +1,40 @@
+.wrap {
+    width: 5   00px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate (-50%, -50%);
+    background: url("/21-dars/images/photo_2022-06-20_12-02-29.jpg");
+    perspective: 1000px;
+}
+
+.wrap:hover .door-l{
+    transform: rotateY(-130deg);
+}
+.wrap:hover .door-r{
+    transform: rotateY(130deg);
+}
+.door-l,
+.door-r {
+    width: 50%;
+    height: 100%;
+    border: 1px solid lavenderblush;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.8 s;
+}
+.door-l {
+                 transform-origin: left;
+    background: url("/21-dars/images/photo_2022-06-20_12-02-47.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.door-r {
+                 transform-origin: right;
+    background: url("/21-dars/images/photo_2022-06-20_12-02-52.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: right center;
+}

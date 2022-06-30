@@ -1,0 +1,6 @@
+.tepa-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    text-decoration: none;
+}
